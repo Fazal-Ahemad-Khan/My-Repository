@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom9.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>APJweb</title>
+</head>
+<style>
+    #arrow{
+color: white;
+float: right;
+margin: 18px -436px;
+}
+
+#imgdiv{
+    width: 80%;
+    height: 720px;
+    margin: auto;
+    margin-top: 50px;
+   /* border: 2px solid white;*/
+}
+.img{
+    width: 300px;
+    height: 300px;
+    margin: 26px;
+    border: 2px solid white;
+}
+
+
+
+
+@media (max-width: 425px) {
+    #imgdiv{
+        width: 100%;
+    }
+
+    .img {
+    width: 282px;
+    margin: 19px;
+    margin-left: 70px;
+}
+}
+
+@media (max-width: 375px) {
+    #imgdiv{
+        width: 100%;
+    }
+
+    .img {
+    width: 282px;
+    margin: 19px;
+    margin-left: 42px;
+}
+}
+
+@media (max-width: 320px) {
+    #imgdiv{
+        width: 100%;
+    }
+
+    .img {
+    width: 282px;
+    margin: 19px
+}
+
+#header {
+    width: 52%;
+}
+
+#mobile i {
+        margin-left: 184px;
+    }
+}
+
+@media (max-width: 720px) and (max-height:1280px) {
+    #imgdiv{
+        width: 100%;
+    }
+
+    .img {
+    width: 400px;
+    height: 400px;
+    margin: 21px 18px 20px 173px;
+}
+
+#header {
+    width: 80%;
+}
+
+#navbar{
+    width: 290px;
+}
+
+#mobile i {
+        margin-left: 581px;
+    }
+}
+
+
+</style>
+<body>
+   
+    <section id="header">
+        <div>
+            <ul id="navbar">
+                <li><a href="Index.html">Home</a></li>
+                <li><a  class="active" href="image.html">Image</a></li>
+                <li><a href="invent.html">Inventions</a></li>
+                <li><a href="book.html">Book</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+    
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        </div>
+    </section>
+
+    <div id="imgdiv">
+        <img src="apj1.jpeg" alt="E" class="img">
+        <img src="apj2.jpeg" alt="E" class="img">
+        <img src="apj3.jpeg" alt="E" class="img">
+        <img src="apj4.jpeg" alt="E" class="img">
+        <img src="apj5.jpeg" alt="E" class="img">
+        <img src="apj6.jpeg" alt="E" class="img">
+    </div>
+</body>
+<script src="dom9.js"></script>
+</html>

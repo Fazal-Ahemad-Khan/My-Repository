@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom9.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap" rel="stylesheet">
+   
+    <title>APJweb</title>
+</head>
+<style>
+    #div1{
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        margin-top: 50px;
+        border: 2px solid white;
+    }
+
+    #img1{
+        width: 400px;
+        height: 300px;
+        margin: auto;
+    }
+    #imgg1{
+        width: 200px;
+        height: 300px;
+        background-image: url("apjb1.jpeg");
+        background-repeat: no-repeat;
+        background-size: 200px 300px;
+        border: 2px solid white;
+        margin: auto;
+        margin-top: 80px;
+    }
+    #imgg2{
+        width: 200px;
+        height: 300px;
+        display: flex;
+        margin-left: 351px;
+        margin-top: 50px;
+        
+    }
+
+    #boxx1{
+        width: 65%;
+        height: 2640px;
+        margin: auto;
+        margin-top: 28px;
+       /* border: 1px solid white;*/
+    }
+    #ht1{
+        color: skyblue;
+        text-align: center;
+        margin-top: 20px;
+        text-decoration: underline white;
+    }
+    #pt1{
+        color: white;
+        text-align: center;
+        margin-top: 12px;
+        font-size: 20px;
+    }
+    #btn1{
+        width: 100px;
+        height: 30px;
+        margin-left: 400px;
+        margin-top: 11px;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #btn1 a{
+        text-decoration: none;
+        color: white;
+    }
+    #btn1 a:hover{
+        color: gray;
+    }
+
+
+
+
+
+@media only screen and (max-width: 425px){
+        #img1{
+            width: 100%;
+        }
+
+        #div1{
+            width: 100%;
+        }
+
+        #pt1{
+            font-size: 16px;
+            margin: 10px;
+        }
+
+        #boxx1 {
+            width: 100%;
+        }
+
+    #btn1 {
+    width: 100px;
+    height: 30px;
+    margin-left: 180px;
+    }
+
+    #imgg2{
+        margin-left: 125px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+        #img1{
+            width: 100%;
+        }
+
+        #div1{
+            width: 100%;
+        }
+
+        #pt1{
+            font-size: 16px;
+        }
+
+        #boxx1 {
+            width: 100%;
+        }
+
+    #btn1 {
+    width: 100px;
+    height: 30px;
+    margin-left: 140px;
+    }
+
+    #imgg2{
+        margin-left: 90px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+        #img1{
+            width: 100%;
+        }
+
+        #div1{
+            width: 100%;
+        }
+
+        #pt1{
+            font-size: 16px;
+        }
+
+    #btn1 {
+    width: 100px;
+    height: 30px;
+    margin-left: 115px;
+    }
+
+    #imgg2{
+        margin-left: 66px;
+    }
+
+    #navbar{
+        width: 289px;
+    }
+
+    #header {
+        width: 164px;
+    }
+
+    #mobile i {
+        margin-left: 184px;
+    }
+
+}
+
+
+@media (max-width: 720px) and (max-height:1280px) {
+        #img1{
+            width: 100%;
+        }
+
+        #div1{
+            width: 100%;
+        }
+
+        #pt1{
+            font-size: 16px;
+        }
+
+    #btn1 {
+    width: 100px;
+    height: 30px;
+    margin-left: 186px;
+    }
+
+    #imgg2{
+        margin-left: 136px;
+    }
+
+    #navbar{
+        width: 289px;
+    }
+
+    #header {
+        width: 80%;
+    }
+
+    #mobile i {
+        margin-left: 588px;
+    }
+
+}
+
+</style>
+<body>
+
+    <section id="header">
+        <div>
+            <ul id="navbar">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="image.html">Image</a></li>
+                <li><a href="invent.html">Inventions</a></li>
+                <li><a class="active" href="book.html">Book</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+    
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        </div>
+    </section>
+
+    <div id="div1">
+        <img src="apj6.jpeg" id="img1">
+    </div>
+
+    <h1 id="H1">Dr. A.P.J. Abdul Kalam's - Books</h1>
+    <div id="boxx1">
+        <div id="imgg1"></div>
+        <h1 id="ht1">Wings of Fire</h1>
+        <p id="pt1">Wings of Fire is a memoir by A.P.J. Abdul Kalam, the former President of India. It tells the story of his inspiring journey from a small town to becoming a renowned scientist, providing valuable life lessons and insights along the way.</p>
+        <button id="btn1"><a href="https://www.google.co.in/books/edition/Wings_of_Fire/c3qmIZtWUjAC?hl=en&gbpv=1&printsec=frontcover">Read This!</a></button>
+
+        <img src="apjb2.jpeg" id="imgg2">
+        <h1 id="ht1">Learning how to Fly</h1>
+        <p id="pt1">Learning How to Fly: Life Lessons for the Youth is a book by A.P.J. Abdul Kalam that compiles some of his lectures to teachers and students. The book offers guidance on how to prepare for life, overcome challenges, and unlock one's potential.</p>
+        <button id="btn1"><a href="https://pubhtml5.com/hmeo/gysd/Learning_How_to_Fly__Life_Lessons_for_the_Youth_by_APJ.ABDUL_KALAM_clone/9">Read This!</a></button>
+
+        <img src="apjb3.jpeg" id="imgg2">
+        <h1 id="ht1">
+            India 2020: A Vision for the New Millennium</h1>
+        <p id="pt1">In this ground-breaking vision document, first published in 1998, Dr A.P.J. Abdul Kalam and Y.S. Rajan offer a blueprint for India to be counted among the world's top five economic powers by the year 2020. They cite growth rates and development trends to show that the goal is not unrealistic.</p>
+        <button id="btn1"><a href="https://www.google.co.in/books/edition/India_2020/dmlBAgAAQBAJ?hl=en&gbpv=1&printsec=frontcover">Read This!</a></button>
+
+        <img src="apjb4.jpeg" id="imgg2">
+        <h1 id="ht1">Turning Points</h1>
+        <p id="pt1">This book, Turning Points: A Journey Through Challenges, takes up the story from when A.P.J Abdul Kalam became the President of India. It covers his acceptance of the post of the President of India, his term in office, his efforts to make his term meaningful, and the challenges he faced.</p>
+        <button id="btn1"><a href="https://www.google.co.in/books/edition/Turning_Points/_mowDwAAQBAJ?hl=en&gbpv=1&printsec=frontcover">Read This!</a></button>
+
+        <img src="apjb5.jpeg" id="imgg2">
+        <h1 id="ht1">Inspiring thoughts</h1>
+        <p id="pt1">Kalam had a strong belief that it is the children of a country who are responsible for shaping its future. In this book, too, he tries his best, through his writings and quotations, to motivate the young readers to believe in the nation, and take charge to build a glorious future for one and all.</p>
+        <button id="btn1"><a href="https://www.google.co.in/books/edition/Inspiring_Thoughts/Q7mrNIqyA8UC?hl=en&gbpv=1&printsec=frontcover">Read This!</a></button>
+    </div>
+</body>
+<script src="dom9.js"></script>
+</html>

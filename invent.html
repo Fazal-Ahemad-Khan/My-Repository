@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom9.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap" rel="stylesheet">
+ 
+    <title>APJweb</title>
+</head>
+<style>
+    #div1{
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        margin-top: 50px;
+        border: 2px solid white;
+    }
+
+    #img1{
+        width: 400px;
+        height: 300px;
+        margin: auto;
+    }
+    #box3{
+        width: 65%;
+        height: 4600px;
+        margin: auto;
+        margin-top: 50px;
+        border: 1px solid #161616;
+    }
+    #box4{
+        width: 80%;
+        height: 110px;
+        margin-top: 150px;
+    }
+    #box5{
+        width: 90%;
+        height: 92px;
+        margin-top: 20px;
+       /* border: 2px solid white;*/
+    }
+    #box6{
+        width: 90%;
+        height: 95px;
+        margin-top: 45px;
+    }
+    #box7{
+        width: 90%;
+        height: 90px;
+        margin-top: 180px;
+      /*  border: 2px solid white;*/
+    }
+    #box8{
+        width: 90%;
+        height: 60px;
+        margin-top: 20px;
+       /* border: 2px solid white;*/
+    }
+    #box10{
+        width: 90%;
+        height: 120px;
+        margin-top: 20px;
+      /*  border: 2px solid white;*/
+    }
+
+    #box11{
+        width: 90%;
+        height: 260px;
+        margin-top: 180px;
+       /* border: 2px solid white;*/
+    }
+    #box12{
+        width: 90%;
+        height: 100px;
+        margin-top: 163px;
+       /* border: 2px solid white;*/
+    }
+    #box9{
+        width: 90%;
+        height: 60px;
+        margin-top: 165px;
+       /* border: 2px solid white;*/
+    }
+    #H6{
+    color: white;
+    margin-top: 15px;
+    text-decoration: underline white;
+    float: left;
+    }
+    #H7{
+    margin-top: 40px;
+    float: left;
+    color: skyblue;
+    
+    }
+    #HH1{
+        margin-top: 40px;
+    float: left;
+    color: skyblue;
+    }
+
+    #pp{
+        margin-top: 20px;
+        color: white;
+        float: left;
+        font-size: 20px;
+    }
+    #pp1{
+        margin-top: 20px;
+        margin-left: -4px;
+        color: white;
+        float: left;
+        font-size: 20px;
+    }
+    #pp2{
+        margin-top: 40px;
+        margin-left: -65px;
+        color: white;
+        float: left;
+        font-size: 20px;
+    }
+    #pp3{
+        margin-top: 40px;
+        margin-left: -35px;
+        color: white;
+        float: left;
+        font-size: 20px;
+    }
+    #img2{
+        width: 200px;
+        height: 200px;
+        background-image: url("apj11.jpeg");
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        margin: auto;
+        margin-top: 178px;
+        border: 2px solid white;
+    }
+    #img3{
+        width: 200px;
+        height: 200px;
+        background-image: url("apj12.jpeg");
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        margin: auto;
+        margin-top: 90px;
+        border: 2px solid white;
+    }
+    #img4{
+        width: 200px;
+        height: 200px;
+        background-image: url("apj13.jpeg");
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        margin: auto;
+        margin-top: 120px;
+        border: 2px solid white;
+    }
+    #img5{
+        width: 200px;
+        height: 200px;
+        background-image: url("apj14.jpeg");
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        margin: auto;
+        margin-top: 110px;
+        border: 2px solid white;
+    }
+    #img6{
+        width: 200px;
+        height: 200px;
+        background-image: url("apj10.jpeg");
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        margin: auto;
+        margin-top: 110px;
+        border: 2px solid white;
+    }
+    #hh1{
+    margin-top: 20px;
+    float: left;
+    color: rgb(156, 213, 233);
+    }
+    #tt1{
+        color: lightblue;
+        float: left;
+    }
+
+    .ull{
+        color: white;
+        float: left;
+        margin-top: 20px;
+        margin: 22px;
+    }
+    .lii{
+        margin: 10px;
+        font-size: 20px;
+    }
+
+ 
+
+
+
+@media (max-width:425px) {
+        #div1 {
+            width: 100%;
+    }
+
+    #img1{
+        width: 100%;
+    }
+
+    #img2{
+        margin-top: 120px;
+    }
+
+    #img3{
+        margin-top: 110px;
+    }
+
+    #img4{
+        margin-top: 208px;
+    }
+
+    #img5{
+        margin-top: 125px;
+    }
+
+    #img6{
+        margin-top: 175px;
+    }
+
+    #box3{
+        width: 100%;
+    }
+
+    #pp3 {
+    margin-top: 14px;
+    margin-left: 7px;
+    color: white;
+    float: left;
+    font-size: 16px;
+}
+
+
+    #pp {
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin: 10px;
+}
+
+#pp1{
+    font-size: 17px;
+    margin: 10px;
+}
+
+#pp2 {
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: white;
+    float: left;
+    font-size: 16px;
+}
+
+#tt1 {
+    color: lightblue;
+    float: left;
+    margin-top: 8px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.lii {
+    font-size: 16px;
+    float: left;
+}
+
+#HH1 {
+    font-size: 19px;
+    margin-top: 15px;
+    margin: 39px 9px 1px 10px;
+}
+
+#hh1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin: 10px;
+}
+
+    #H6{
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    #H7{
+        font-size: 20px;
+        margin: 8px;
+    }
+}
+
+
+@media (max-width:375px) {
+        #div1 {
+            width: 100%;
+    }
+
+    #img1{
+        width: 100%;
+    }
+
+    #img2{
+        margin-top: 120px;
+    }
+
+    #img3{
+        margin-top: 145px;
+    }
+
+    #img4{
+        margin-top: 285px;
+    }
+
+    #img5{
+        margin-top: 125px;
+    }
+
+    #img6{
+        margin-top: 232px;
+    }
+
+    #box3{
+        width: 100%;
+    }
+
+    #pp3 {
+    margin-top: 14px;
+    margin-left: 7px;
+    color: white;
+    float: left;
+    font-size: 16px;
+}
+
+
+    #pp {
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin: 10px;
+}
+
+#pp1{
+    font-size: 17px;
+    margin: 10px;
+}
+
+#pp2 {
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: white;
+    float: left;
+    font-size: 16px;
+}
+
+#tt1 {
+    color: lightblue;
+    float: left;
+    margin-top: 8px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.lii {
+    font-size: 16px;
+    float: left;
+}
+
+#HH1 {
+    font-size: 19px;
+    margin-top: 15px;
+    margin: 39px 9px 1px 10px;
+}
+
+#hh1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin: 10px;
+}
+
+    #H6{
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    #H7{
+        font-size: 20px;
+        margin: 8px;
+    }
+}
+
+@media (max-width:320px) {
+        #div1 {
+            width: 100%;
+    }
+
+    #img1{
+        width: 100%;
+    }
+
+    #img2{
+        margin-top: 167px;
+    }
+
+    #img3{
+        margin-top: 200px;
+    }
+
+    #img4{
+        margin-top: 350px;
+    }
+
+    #img5{
+        margin-top: 188px;
+    }
+
+    #img6{
+        margin-top: 383px;
+    }
+
+    #box3{
+        width: 100%;
+    }
+
+    #header {
+        width: 165px;
+        background-color: #161616;
+    }
+
+    #mobile i {
+        margin-left: 181px;
+    }
+
+    #navbar{
+        width: 289px;
+    }
+
+    #pp3 {
+    margin-top: 14px;
+    margin-left: 7px;
+    color: white;
+    float: left;
+    font-size: 16px;
+}
+
+
+    #pp {
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin: 10px;
+}
+
+#pp1{
+    font-size: 17px;
+    margin: 10px;
+}
+
+#pp2 {
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: white;
+    float: left;
+    font-size: 16px;
+}
+
+#tt1 {
+    color: lightblue;
+    float: left;
+    margin-top: 8px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.lii {
+    font-size: 16px;
+    float: left;
+}
+
+#HH1 {
+    font-size: 19px;
+    margin-top: 15px;
+    margin: 39px 9px 1px 10px;
+}
+
+#hh1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin: 10px;
+}
+
+    #H6{
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    #H7{
+        font-size: 20px;
+        margin: 8px;
+    }
+}
+
+    @media (max-width: 720px) and (max-height:1280px) {
+        #div1 {
+            width: 100%;
+    }
+
+    #img1{
+        width: 100%;
+    }
+
+    #img2{
+        margin-top: 264px;
+    }
+
+    #img3{
+        margin-top: 166px;
+    }
+
+    #img4{
+        margin-top: 268px;
+    }
+
+    #img5{
+        margin-top: 209px;
+    }
+
+    #img6{
+        margin-top: 249px;
+    }
+
+    #box3{
+        width: 100%;
+    }
+
+    #header {
+        width: 80%;
+        background-color: #161616;
+    }
+
+    #mobile i {
+        margin-left: 585px;
+    }
+
+    #navbar{
+        width: 289px;
+    }
+
+    #pp3 {
+    margin-top: 14px;
+    margin-left: 7px;
+    color: white;
+    float: left;
+    font-size: 16px;
+}
+
+
+    #pp {
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin: 10px;
+}
+
+#pp1{
+    font-size: 17px;
+    margin: 10px;
+}
+
+#pp2 {
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: white;
+    float: left;
+    font-size: 16px;
+}
+
+#tt1 {
+    color: lightblue;
+    float: left;
+    margin-top: 8px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.lii {
+    font-size: 16px;
+    float: left;
+}
+
+#HH1 {
+    font-size: 19px;
+    margin-top: 15px;
+    margin: 39px 9px 1px 10px;
+}
+
+#hh1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin: 10px;
+}
+
+    #H6{
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    #H7{
+        font-size: 20px;
+        margin: 8px;
+    }
+
+}
+
+</style>
+<body>
+
+    <section id="header">
+        <div>
+            <ul id="navbar">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="image.html">Image</a></li>
+                <li><a class="active" href="invent.html">Inventions</a></li>
+                <li><a href="book.html">Book</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+    
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        </div>
+    </section>
+
+    <div id="div1">
+        <img src="apj9.jpeg" id="img1">
+    </div>
+
+    <h1 id="H1">Dr. A.P.J. Abdul Kalam - Incomparable Contribution to Nation</h1>
+
+    <div id="box3">
+        <h1 id="H6">Contribution of Dr. A.P.J. Abdul Kalam: In Space, Engineering and Medicine</h1>
+
+        <h1 id="H7">India’s first Indigenous Hovercraft.</h1>
+        <div id="img2"></div>
+        <p id="pp">India's first indigenous hovercraft was the Nandi, developed by Dr. A.P.J. Abdul Kalam and his team. The hovercraft was named after the white bull that serves as Shiva's vehicle.</p>
+        <h2 id="hh1">more details about the Nandi:</h2>
+        <div id="box4">
+            <h3 id="tt1">How it Works</h3>
+            <p id="pp">The Nandi was a Ground Equipment Machine (GEM) that used large blowers to create an air cushion beneath the craft, allowing it to travel over land, water, mud, and ice. 
+            </p>
+        </div>
+
+        <div id="box5">
+            <h3 id="tt1">Development</h3>
+            <p id="pp">The Nandi was the result of a project led by Dr. Kalam at the Aeronautical Development Establishment (ADE) in Bangalore. The team faced challenges due to limited information and resources, but were able to produce a wingless, light, and swift machine.
+            </p>
+        </div>
+
+        <div id="box6">
+            <h3 id="tt1">Significance</h3>
+            <p id="pp">The Nandi marked the beginning of India's indigenous development of defense equipment.
+            </p>
+        </div>
+
+
+        <h1 id="HH1">India’s first Satellite Launch Vehicle</h1>
+        <div id="img3"></div>
+        <p id="pp">India's first satellite launch vehicle was the Satellite Launch Vehicle-3 (SLV-3), which was launched successfully on July 18, 1980 from Sriharikota Range (SHAR). The SLV-3 was a four-stage, all-solid rocket that was 22 meters tall and weighed 17 tonnes. It was able to place payloads of up to 40 kilograms into Low Earth Orbit (LEO). </p>
+        <h2 id="hh1">more details about the SLV-3:</h2>
+
+        <div id="box7">
+            <h3 id="tt1">Launch date</h3>
+            <p id="pp1"> The SLV-3 was launched successfully from Sriharikota Range (SHAR) on July 18, 1980. The launch put India in the exclusive club of countries with orbital launch capability. 
+            </p>
+        </div>
+
+        <div id="box8">
+            <h3 id="tt1">Payload</h3>
+            <p id="pp2">The SLV-3 launched the Rohini satellite, RS-1, into orbit. 
+            </p>
+        </div>
+
+        <div id="box5">
+            <h3 id="tt1">Significance</h3>
+            <p id="pp">The SLV-3 was a four-stage, all-solid vehicle that weighed 17 tonnes and was 22 meters tall. It could place payloads of around 40 kg in Low Earth Orbit (LEO). 
+        </p>
+        </div>
+
+        <div id="box5">
+            <h3 id="tt1">Development</h3>
+            <p id="pp">The SLV project was developed to achieve India's ability to launch satellites for communication, remote-sensing, and meteorology. Dr. A.P.J. Abdul Kalam was the project director.</p>
+        </div>
+
+        <div id="box5">
+            <h3 id="tt1">Success</h3>
+            <p id="pp">The SLV project's success led to the development of more advanced launch vehicles, such as the Polar Satellite Launch Vehicle (PSLV), Augmented Satellite Launch Vehicle (ASLV), and Geosynchronous Satellite Launch Vehicle (GSLV).</p>
+        </div>
+
+
+        <h1 id="HH1">INCOSPAR Committee</h1>
+        <div id="img4"></div>
+        <p id="pp">A. P. J. Abdul Kalam (who later became the President of India) was amongst the initial team of rocket engineers forming the INCOSPAR. On 15 August 1969, INCOSPAR was superseded by the Indian Space Research Organisation (ISRO). </p>
+        <h2 id="hh1">more details about the INCOSPAR Committee:</h2>
+
+        <div id="box9">
+            <h3 id="tt1">Role</h3>
+            <p id="pp3"> Kalam was a renowned rocket engineer and a key member of the INCOSPAR committee. </p>
+        </div>
+
+        <div id="box10">
+            <h3 id="tt1">Contribution</h3>
+            <p id="pp">Kalam played a crucial role in establishing the Thumba Equatorial Rocket Launching Station (TERLS) at Thumba, India. TERLS is a spaceport that's used to launch rockets.
+            </p>
+        </div>
+
+        <div id="box10">
+            <h3 id="tt1">Other Contribution</h3>
+            <p id="pp">Kalam also oversaw the development of India's first satellite launch vehicles, including the SLV-III and PSLV. He also led the development of the Agni and Prithvi missiles, earning him the nickname "Missile Man of India". </p>
+        </div>
+
+        
+        <h1 id="HH1">Ballistic Missile Project</h1>
+        <div id="img5"></div>
+        <p id="pp">Kalam played a major part in developing many missiles under the mission including Agni, an intermediate range ballistic missile and Prithvi, the tactical surface-to-surface missile, although the projects have been criticised for mismanagement and cost and time overruns. </p>
+        <h2 id="hh1">more details about the Ballistic Missile Project:</h2>
+
+        <div id="box11">
+            <h3 id="tt1">Integrated Guided Missile Development Programme (IGMDP)</h3>
+            <p id="pp"> Kalam led the IGMDP, which began in 1983 at the Defence Research and Development Laboratory (DRDL) in Hyderabad. The program produced several successful missiles, including:</p>
+            <ul class="ull">
+            <li class="lii">Agni: India's first intermediate-range ballistic missile, launched in 1989</li> 
+             <li class="lii">Prithvi: A surface-to-surface tactical missile </li>
+                <li class="lii">Akash and Trishul: Surface-to-air missiles</li>
+               <li class="lii">Nag: An anti-tank guided missile </li>
+            </ul>
+        </div>
+
+        <div id="box8">
+            <h3 id="tt1">Devil and Valiant</h3>
+            <p id="pp">Projects that used technology from the successful SLV program to develop ballistic missiles.</p>
+        </div>
+
+        <div id="box10">
+            <h3 id="tt1">BrahMos Aerospace</h3>
+            <p id="pp">A joint partnership between India and Russia formed through Kalam's vision of a joint partnership. </p>
+        </div>
+
+
+        <h1 id="HH1">Chief Scientific Advisor and DRDO Secretary</h1>
+        <div id="img6"></div>
+        <p id="pp">Kalam served as the Chief Scientific Adviser to the Prime Minister and Secretary of the Defence Research and Development Organisation from July 1992 to December 1999. The Pokhran-II nuclear tests were conducted during this period in which he played an intensive political and technological role. </p>
+        <h2 id="hh1">more details about the Chief Scientific Advisor and DRDO Secretary:</h2>
+
+        <div id="box12">
+            <h3 id="tt1">Role</h3>
+            <p id="pp"> 
+                Kalam was the Chief Scientific Adviser to the Prime Minister and the Secretary of the DRDO from July 1992 to December 1999</p>
+        </div>
+
+        <div id="box10">
+            <h3 id="tt1">Other Achievements</h3>
+            <p id="pp">Kalam was also a recipient of the Bharat Ratna award and was the 11th President of India from 2002 to 2007. He was also a visiting professor at the Indian Institute of Management (IIM) in Ahmedabad, IIM Shillong, and IIM-Indore.  </p>
+        </div>
+
+        <div id="box10">
+            <h3 id="tt1">Other Work</h3>
+            <p id="pp">Kalam also developed a low cost coronary stent with cardiologist Soma Raju, called the "Kalam-Raju Stent". In 2012, he and Raju designed a rugged tablet computer for health care in rural areas, called the "Kalam-Raju Tablet". </p>
+        </div>
+    </div>
+</body>
+<script src="dom9.js"></script>
+</html>
